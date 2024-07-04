@@ -114,7 +114,6 @@ export const createLinkResolver = async (arg: ICreateLinkResolver): Promise<stri
         : qualifierPath.includes('?')
           ? `${qualifierPath}&linkType=${responseLinkType}`
           : `${qualifierPath}?linkType=${responseLinkType}`;
-    console.log('path', path);
     return `${dlrAPIUrl}/${linkResolver.identificationKeyType}/${linkResolver.identificationKey}${path}`;
   } catch (error) {
     throw new Error('Error creating link resolver');

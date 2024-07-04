@@ -4,6 +4,8 @@ import { publicAPI } from './utils/httpService.js';
 
 export const storageService: IStorageService = async (config) => {
   const { url, params, options = { method: 'POST', headers: [] } } = config;
+  console.log('storageService', url, params, options);
+  console.log('abc def');
   try {
     let result;
     switch (options.method) {
@@ -18,7 +20,6 @@ export const storageService: IStorageService = async (config) => {
     }
 
     const getResultByPath = getValueByPath(result, params.resultPath);
-    console.log('getResultByPath', getResultByPath);
     return getResultByPath;
   } catch (error: any) {
     console.error(error);
