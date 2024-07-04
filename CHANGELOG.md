@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/ducpm511/tests-untp/compare/v1.3.0...v1.4.0) (2024-07-04)
+
+
+### Features
+
+* add abcdef ([37c2765](https://github.com/ducpm511/tests-untp/commit/37c2765d6456083a8f763c83a598b954916b8bde))
+* implement abc service ([332bbdf](https://github.com/ducpm511/tests-untp/commit/332bbdf81ef24eaa879f8e97f3ea8996f90cd6b3))
+* implemented abc service ([3387909](https://github.com/ducpm511/tests-untp/commit/3387909a3e48e62a26a9fbe01723e8e28af8367e))
+
 ## [1.3.0](https://github.com/ducpm511/tests-untp/compare/v1.2.0...v1.3.0) (2024-07-03)
 
 
